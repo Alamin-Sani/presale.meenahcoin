@@ -5,7 +5,6 @@ import { cookieToInitialState } from "wagmi";
 import "./globals.css";
 import { getConfig } from "@/wagmi.config";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,7 +39,6 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} bg-black bg-opacity-90 text-foreground antialiased`}
       >
           <Providers initialState={initialState}>
-            {/* <Navbar /> */}
             {children}
           </Providers>
         
