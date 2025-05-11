@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useAccount, useConnect, useDisconnect, useSwitchChain } from "wagmi";
-import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -71,12 +70,6 @@ export function Navbar() {
         >
           Connect Wallet
         </button>
-        // <Button
-        //   className="bg-pink-500 rounded-xl hover:bg-pink-600 shadow-xl md:px-10 font-semibold"
-        //   onClick={() => connect({ connector })}
-        // >
-        //   Connect Wallet
-        // </Button>
       )}
     </nav>
   );
