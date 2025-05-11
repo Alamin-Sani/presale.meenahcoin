@@ -163,37 +163,6 @@ export default function Home() {
         </button>
       )}
 
-        {/* <div className="relative">
-          <button
-            onClick={() => setIsWalletMenuOpen(!isWalletMenuOpen)}
-            className="bg-pink-400 text-black font-semibold px-6 py-2 rounded-full hover:bg-pink-300 transition-all duration-300"
-          >
-            Connect Wallet
-          </button>
-
-          {isWalletMenuOpen && (
-            <div className="absolute right-0 mt-2 w-48 bg-black/90 border border-pink-500/30 rounded-lg shadow-lg py-2 z-50 animate-fade-in-down">
-              <button
-                onClick={() => alert('MetaMask selected')}
-                className="flex items-center gap-3 px-4 py-2 w-full text-left hover:bg-pink-500/20 transition-colors duration-200"
-              >
-                <MetamaskIcon /> MetaMask
-              </button>
-              <button
-                onClick={() => alert('Trust Wallet selected')}
-                className="flex items-center gap-3 px-4 py-2 w-full text-left hover:bg-pink-500/20 transition-colors duration-200"
-              >
-                <TrustWalletIcon /> Trust Wallet
-              </button>
-              <button
-                onClick={() => alert('Phantom selected')}
-                className="flex items-center gap-3 px-4 py-2 w-full text-left hover:bg-pink-500/20 transition-colors duration-200"
-              >
-                <PhantomIcon /> Phantom
-              </button>
-            </div>
-          )}
-        </div> */}
       </header>
 
       {/* Main Content */}
