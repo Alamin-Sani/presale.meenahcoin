@@ -50,7 +50,7 @@ export default function Home() {
     seconds: '00',
   });
 
-  const [isWalletMenuOpen, setIsWalletMenuOpen] = useState(false);
+  // const [isWalletMenuOpen, setIsWalletMenuOpen] = useState(false);
 
   const endDate = new Date('2025-05-18T00:00:00Z').getTime();
 
@@ -83,23 +83,23 @@ export default function Home() {
   }, []);
 
   // SVG Icons
-  const MetamaskIcon = () => (
-    <svg viewBox="0 0 32 32" className="w-6 h-6" fill="currentColor">
-      <path d="M16 3L3 17l6 11 6-6 6 6 6-11z" fill="#FCC32E" />
-    </svg>
-  );
+ // const MetamaskIcon = () => (
+  //  <svg viewBox="0 0 32 32" className="w-6 h-6" fill="currentColor">
+  //    <path d="M16 3L3 17l6 11 6-6 6 6 6-11z" fill="#FCC32E" />
+  //  </svg>
+  // );
 
-  const TrustWalletIcon = () => (
-    <svg viewBox="0 0 32 32" className="w-6 h-6" fill="currentColor">
-      <circle cx="16" cy="16" r="14" fill="#00B4AC" />
-    </svg>
-  );
+ // const TrustWalletIcon = () => (
+ //   <svg viewBox="0 0 32 32" className="w-6 h-6" fill="currentColor">
+ //     <circle cx="16" cy="16" r="14" fill="#00B4AC" />
+ //   </svg>
+ // );
 
-  const PhantomIcon = () => (
-    <svg viewBox="0 0 32 32" className="w-6 h-6" fill="currentColor">
-      <path d="M9 10v14l7-5 7 5V10H9z" fill="#9A6DFF" />
-    </svg>
-  );
+//  const PhantomIcon = () => (
+//    <svg viewBox="0 0 32 32" className="w-6 h-6" fill="currentColor">
+//      <path d="M9 10v14l7-5 7 5V10H9z" fill="#9A6DFF" />
+//    </svg>
+//  );
 
 
   return (
@@ -189,7 +189,7 @@ export default function Home() {
               </div>
               <h2 className="text-2xl mt-4 font-bold">The Revolution Has Begun</h2>
               <p className="mt-2">
-                MeenahCoin (MNC) isn't just another cryptocurrency — it's a powerful movement to reshape how digital assets are exchanged and traded.
+                MeenahCoin (MNK) isnt just another cryptocurrency — it is a powerful movement to reshape how digital assets are exchanged and traded.
                 Built on the Solana blockchain, MeenahCoin offers lightning-fast, low-cost, and secure transactions accessible to everyone.
               </p>
               <h2 className="text-xl mt-6">Why MeenahCoin?</h2>
