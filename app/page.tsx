@@ -180,10 +180,10 @@ export default function Home() {
                 <a href="https://meenahcoin.space" target="_blank" rel="noopener noreferrer">
                   <Image src={web} alt="Website" width={50} height={50} />
                 </a>
-                <a href="https://x.com/meenah_oin" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/OinMeenah" target="_blank" rel="noopener noreferrer">
                   <Image src={twitter} alt="Twitter" width={50} height={50} />
                 </a>
-                <a href="https://t.me/+_6yZEX4pynhjNWU0" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/meenahg91" target="_blank" rel="noopener noreferrer">
                   <Image src={telegram} alt="Telegram" width={50} height={50} />
                 </a>
               </div>
