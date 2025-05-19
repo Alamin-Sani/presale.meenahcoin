@@ -52,7 +52,7 @@ export default function Home() {
 
   // const [isWalletMenuOpen, setIsWalletMenuOpen] = useState(false);
 
-  const endDate = new Date('2025-05-23T00:00:00Z').getTime();
+  const endDate = new Date('2025-05-30T00:00:00Z').getTime();
 
   useEffect(() => {
     const updateCountdown = () => {
