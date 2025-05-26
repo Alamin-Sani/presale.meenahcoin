@@ -245,11 +245,24 @@ export default function Home() {
             {/* Presale Details Card */}
             <article className="bg-black/10 p-6 rounded-xl shadow-lg border border-pink-500/10">
               <h3 className="text-lg font-semibold mb-4">Presale Details</h3>
-              <ul className="space-y-2">
-                <li className="flex justify-between"><span>Status:</span><span className="text-pink-400">Live</span></li>
-                <li className="flex justify-between"><span>Sale Type:</span><span className="text-pink-400">Public</span></li>
-                <li className="flex justify-between"><span>Liquidity:</span><span className="text-pink-400">50%</span></li>
-                <li className="flex justify-between"><span>Lock:</span><span className="text-pink-400">2 Months</span></li>
+              <ul className="divide-y divide-pink-500/20">
+                {[
+                  ["Token Name:", "Meenah Coin"],
+                  ["Token Symbol:", "MNK$"],
+                  ["Status:", "Live"],
+                  ["Sale Type:", "Fair Lunch"],
+                  ["Presale Tokens:", "450,000,000"],
+                  ["Liquidity:", "23%"],
+                  ["Lock:", "2 Months"],
+                  ["Token For Liquidity:", "200,000,000"],
+                  ["Softcap:", "1 SOL"],
+                  ["Hardcap:", "500 SOL"],
+                ].map(([label, value], index) => (
+                  <li key={index} className="flex justify-between py-2">
+                    <span>{label}</span>
+                    <span className="text-pink-400">{value}</span>
+                  </li>
+                ))}
               </ul>
             </article>
           </section>
