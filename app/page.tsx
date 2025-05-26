@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { formatAddress } from "@/lib/utils";
 import { ChevronDown } from "lucide-react";
+import WalletRange from '@/components/walletRange';
 
 export default function Home() {
 
@@ -226,6 +227,7 @@ export default function Home() {
                 <span className="bg-pink-400 text-black px-3 py-1 rounded-lg">{timeLeft.seconds}s</span>
               </div>
               <p className="text-center mt-4 text-pink-400 font-bold glow-text">Presale Round 1</p>
+              <WalletRange />
             </article>
 
             {/* Presale Details Card */}
