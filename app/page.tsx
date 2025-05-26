@@ -228,20 +228,6 @@ export default function Home() {
               <p className="text-center mt-4 text-pink-400 font-bold glow-text">Presale Round 1</p>
             </article>
 
-            {/* After Presale Card */}
-            <article className="bg-black/10 p-6 rounded-xl shadow-lg border border-pink-500/10">
-              <h3 className="text-lg font-semibold mb-2">After the Presale</h3>
-              <p>
-                Once the presale ends, tokens will be distributed, and liquidity will be locked. Stay connected with our channels for listing announcements.
-              </p>
-              <p className="mt-4 color-pink-400 font-bold text-center mb-4">
-                If you cannot connect to the wallet, please use the <span className='text-pink-500'>SOL ADDRESS</span> below to send funds:
-              </p>
-              <h2 className='text-center text-5xl mb-4'>👇🏼👇🏼</h2>
-              <p className="text-pink-400 rounded bg-blue-800 mt-2 break-all p-4 bg-light text-center" onClick={copyToClipboard}><span ref={textRef} className='font-bold'>6gvxSJdBBbnagxJDxmG5gdD6L3w3DKg15oJEyeq9RWSz</span><br /> <span className='text-white text-2sm'>Click to copy</span></p>
-              {/* <p className='text-center'>Click to copy</p> */}
-            </article>
-
             {/* Presale Details Card */}
             <article className="bg-black/10 p-6 rounded-xl shadow-lg border border-pink-500/10">
               <h3 className="text-lg font-semibold mb-4">Presale Details</h3>
@@ -265,6 +251,21 @@ export default function Home() {
                 ))}
               </ul>
             </article>
+
+            {/* After Presale Card */}
+            <article className="bg-black/10 p-6 rounded-xl shadow-lg border border-pink-500/10">
+              <h3 className="text-lg font-semibold mb-2">After the Presale</h3>
+              <p>
+                Once the presale ends, tokens will be distributed, and liquidity will be locked. Stay connected with our channels for listing announcements.
+              </p>
+              <p className="mt-4 color-pink-400 font-bold text-center mb-4">
+                If you cannot connect to the wallet, please use the <span className='text-pink-500'>SOL ADDRESS</span> below to send funds:
+              </p>
+              <h2 className='text-center text-5xl mb-4'>👇🏼👇🏼</h2>
+              <p className="text-pink-400 rounded bg-blue-800 mt-2 break-all p-4 bg-light text-center" onClick={copyToClipboard}><span ref={textRef} className='font-bold'>6gvxSJdBBbnagxJDxmG5gdD6L3w3DKg15oJEyeq9RWSz</span><br /> <span className='text-white text-2sm'>Click to copy</span></p>
+              {/* <p className='text-center'>Click to copy</p> */}
+            </article>
+            
           </section>
         </div>
       </main>
