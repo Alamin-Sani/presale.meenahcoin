@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const MAX_LAMPORTS = 2_000_000_000; // 2 SOL
+const MAX_LAMPORTS = 300_000_000_000; // 2 SOL
 
 export default function WalletRange() {
   const [lamports, setLamports] = useState<number>(0);
