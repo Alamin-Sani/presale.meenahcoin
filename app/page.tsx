@@ -53,7 +53,7 @@ export default function Home() {
 
   // const [isWalletMenuOpen, setIsWalletMenuOpen] = useState(false);
 
-  const endDate = new Date('2025-05-30T00:00:00Z').getTime();
+  const endDate = new Date('2025-06-10T00:00:00Z').getTime();
 
   useEffect(() => {
     const updateCountdown = () => {
@@ -226,7 +226,7 @@ export default function Home() {
                 <span className="bg-pink-400 text-black px-3 py-1 rounded-lg">{timeLeft.minutes}m</span>
                 <span className="bg-pink-400 text-black px-3 py-1 rounded-lg">{timeLeft.seconds}s</span>
               </div>
-              <p className="text-center mt-4 text-pink-400 font-bold glow-text">Presale Round 1</p>
+              <p className="text-center mt-4 text-pink-400 font-bold glow-text">Presale Round 2</p>
               <WalletRange />
             </article>
 
