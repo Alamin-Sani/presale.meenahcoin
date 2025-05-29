@@ -238,7 +238,7 @@ export default function Home() {
                   ["Token Name:", "Meenah Coin"],
                   ["Token Symbol:", "MNK$"],
                   ["Status:", "Live"],
-                  ["Sale Type:", "Fair Lunch"],
+                  ["Sale Type:", "Pre sale"],
                   ["Presale Tokens:", "450,000,000"],
                   ["Liquidity:", "23%"],
                   ["Lock:", "2 Months"],
