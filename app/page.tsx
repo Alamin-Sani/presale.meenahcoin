@@ -191,7 +191,6 @@ export default function Home() {
                     </a>
                   </div>
               </div>
-              // </div>
               <h2 className="text-2xl mt-4 font-bold">The Revolution Has Begun</h2>
               <p className="mt-2">
                 MeenahCoin (MNK) isnt just another cryptocurrency — it is a powerful movement to reshape how digital assets are exchanged and traded.
