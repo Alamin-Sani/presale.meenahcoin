@@ -173,8 +173,8 @@ export default function Home() {
           {/* Left Column */}
           <section className="w-full md:w-1/2">
             <article className="bg-black/10 p-6 rounded-xl shadow-lg border border-pink-500/10">
-              <div classname="flex items-center justify-center">
-                <Image src={logo} alt="Crypto Coin" className="rounded-lg w-full mb-4" />
+              <div className="flex items-center justify-center">
+                <Image src={logo} alt="Crypto Coin" width={100} height={100} className="rounded-lg w-full mb-4" />
                 <div>
                   <h2 className="text-2xl font-bold flex items-center">
                   MeenahCoin <span className="text-xs bg-pink-400 text-black px-3 py-1 rounded-full ml-3">Audited</span>
@@ -189,6 +189,7 @@ export default function Home() {
                     <a href="https://t.me/meenahg91" target="_blank" rel="noopener noreferrer">
                       <Image src={telegram} alt="Telegram" width={50} height={50} />
                     </a>
+                  </div>
                   </div>
               </div>
               <h2 className="text-2xl mt-4 font-bold">The Revolution Has Begun</h2>
@@ -259,7 +260,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <p classname="text-xl text-center">Listing on Raydium AMM V4</p>
+              <p className="text-xl text-center text-pink-400">Listing on Raydium AMM V4</p>
             </article>
 
             {/* After Presale Card */}
