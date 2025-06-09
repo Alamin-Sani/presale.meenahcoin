@@ -236,7 +236,6 @@ export default function Home() {
 
             {/* Presale Details Card */}
             <article className="bg-black/10 p-6 rounded-xl shadow-lg border border-pink-500/10">
-              <h3 className="text-lg font-semibold mb-4">Presale Details</h3>
               <ul className="divide-y divide-pink-500/20">
                 {[
                   ["Token Name:", "Meenah Coin"],
