@@ -239,12 +239,16 @@ export default function Home() {
                   ["Token Symbol:", "MNK$"],
                   ["Status:", "Live"],
                   ["Sale Type:", "Pre sale"],
-                  ["Presale Tokens:", "450,000,000"],
-                  ["Liquidity:", "23%"],
-                  ["Lock:", "2 Months"],
-                  ["Token For Liquidity:", "200,000,000"],
-                  ["Softcap:", "1 SOL"],
-                  ["Hardcap:", "500 SOL"],
+                  ["Total Supply Of Token:", "799,500,000"],
+                  ["IDO & LP:", "65% = 519,675,000"],
+                  ["Fair Lunch:", "40% = 319,800,000"],
+                  ["Liquidity:", "25% = 199,875,000"],
+                  ["Airdrop:", "5% = 39,975,000"],
+                  ["Team:", "10% = 79,950,000"],
+                  ["Marketing:", "7% = 55,965,000"],
+                  ["Developers:", "3% = 23,985,000"],
+                  ["Liquidity %:", "65%"],
+                  ["Max Buy:", "2 SOL"]
                 ].map(([label, value], index) => (
                   <li key={index} className="flex justify-between py-2">
                     <span>{label}</span>
@@ -252,6 +256,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
+              <p classname="text-xl text-center">Listing on Raydium AMM V4</p>
             </article>
 
             {/* After Presale Card */}
