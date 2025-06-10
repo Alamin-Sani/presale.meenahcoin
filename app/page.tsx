@@ -230,7 +230,7 @@ export default function Home() {
                 <span className="bg-pink-400 text-black px-3 py-1 rounded-lg">{timeLeft.minutes}m</span>
                 <span className="bg-pink-400 text-black px-3 py-1 rounded-lg">{timeLeft.seconds}s</span>
               </div>
-              <p className="text-center mt-4 text-pink-400 font-bold glow-text">Presale Round 2</p>
+              <p className="text-center mt-4 text-pink-400 font-bold glow-text">Fair Lunch</p>
               <WalletRange />
             </article>
 
@@ -241,13 +241,15 @@ export default function Home() {
                   ["Token Name:", "Meenah Coin"],
                   ["Token Symbol:", "MNK$"],
                   ["Status:", "Live"],
-                  ["Sale Type:", "Pre sale"],
+                  ["Sale Type:", "Fair Lunch"],
                   ["Total Supply Of Token:", "799,500,000"],
                   ["IDO & LP:", "65% = 519,675,000"],
                   ["Fair Lunch:", "40% = 319,800,000"],
                   ["Liquidity:", "25% = 199,875,000"],
+                  ["Liquidity Lock", "730 Days"],
                   ["Airdrop:", "5% = 39,975,000"],
                   ["Team:", "10% = 79,950,000"],
+                  ["CEX List", "10% = 79.950,000"],
                   ["Marketing:", "7% = 55,965,000"],
                   ["Developers:", "3% = 23,985,000"],
                   ["Liquidity %:", "65%"],
